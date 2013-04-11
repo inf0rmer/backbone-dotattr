@@ -1,0 +1,10 @@
+{
+  "name": "backbone-dotattr",
+  "version": "0.0.5",
+  "main": "backbone-dotattr.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
