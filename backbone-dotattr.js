@@ -1,4 +1,4 @@
-(function(_, Backbone) {
+define(['underscore', 'backbone'], function(_, Backbone) {
     _.extend(Backbone.Model.prototype, {
         get: function(key) {
             return _.reduce(key.split('.'), function(attr, key) {
@@ -9,4 +9,4 @@
             }, this.attributes);
         }
     });
-})(window._, window.Backbone);
+});
