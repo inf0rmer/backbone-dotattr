@@ -1,4 +1,4 @@
-# Backbone Dotattr [![Build Status](https://secure.travis-ci.org/inf0rmer/backbone-dotattr.png)](http://travis-ci.org/inf0rmer/backbone-dotattr]) #
+# Backbone Dotattr [![Build Status](https://secure.travis-ci.org/inf0rmer/backbone-dotattr.png)](http://travis-ci.org/inf0rmer/backbone-dotattr) #
 Access deep Backbone.js model attributes with dot-syntax.
 
 ## Example ##
