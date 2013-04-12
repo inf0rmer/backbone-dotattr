@@ -1,0 +1,32 @@
+{
+  "name": "backbone-dotattr",
+  "title": "Backbone.DotAttr",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bruno Abrantes",
+    "url": "http://brunoabrantes.com/"
+  },
+  "homepage": "http://github.com/inf0rmer/backbone-dotattr",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/inf0rmer/backbone-dotattr.git"
+  },
+  "main": "./dist/backbone-dotattr-amd.js",
+  "dependencies": {
+    "backbone": ">=0.9.1",
+    "underscore": ">=1.3.1"
+  },
+  "devDependencies": {
+    "grunt-rigger": ">=0.3.0",
+    "grunt": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-concat": "~0.2.0"
+  }
+}
