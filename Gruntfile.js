@@ -90,14 +90,18 @@ module.exports = function(grunt) {
           $: true
         }
       }
+    },
+    qunit: {
+      all: ['test/**/*.html']
     }
   });
 
-  grunt.registerTask('default', ['rig', 'jshint', 'concat', 'uglify']);
+  grunt.registerTask('default', ['rig', 'jshint', 'concat', 'uglify', 'qunit']);
 
   grunt.loadNpmTasks('grunt-rigger');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-qunit');
 };
